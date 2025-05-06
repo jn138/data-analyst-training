@@ -1,10 +1,9 @@
 # Import libraries
 import pandas as pd
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import roc_curve, roc_auc_score
-from sklearn.model_selection import GridSearchCV
 import matplotlib.pyplot as plt
 
 # Load the training dataset
