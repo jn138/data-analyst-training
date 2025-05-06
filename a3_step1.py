@@ -21,7 +21,7 @@ for column in columns:
 X = d1.drop(['id', 'cardio'], axis=1)
 Y = d1['cardio']
 
-# Step 4: Split the data into train and test sets
+# Split the data into train and test sets
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.3, random_state=42)
 
 # Scale the features
