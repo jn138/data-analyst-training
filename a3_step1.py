@@ -30,7 +30,7 @@ X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
 
 
-# [NEW] Find best parameters to build the model
+# Find best parameters to build the model
 param_grid = {
   'n_estimators': [200, 300, 400],    # Number of trees
   'max_depth': [10, 20, None],        # How deep the trees go
